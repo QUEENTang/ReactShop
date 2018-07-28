@@ -1,0 +1,588 @@
+@import "../../asset/less/rem";
+.konwlegde {
+  padding-bottom: 98/@rem;
+  width: 100%;
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 88/@rem;
+    background: #f4f4f4;
+    z-index: 100;
+    .icon {
+      height: 88/@rem;
+      width: 90%;
+      margin: auto;
+      text-align: right;
+      a {
+        &.icon_home {
+          float: left;
+        }
+        &.icon_cart {
+          padding-left: 10/@rem;
+        }
+        .iconfont {
+          font-size: 46/@rem;
+          color: black;
+        }
+      }
+    }
+    .to_home {
+      width: 170/@rem;
+      height: 50/@rem;
+      position: absolute;
+      top: 10/@rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      a {
+        span {
+          display: block;
+          font-size: 40/@rem;
+          color: black;
+        }
+      }
+    }
+  }
+  .lunbo {
+    padding-top: 88/@rem;
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          width: 90%;
+          padding: 20/@rem 10/@rem;
+          position: relative;
+          img {
+            width: 100%;
+          }
+          .detail {
+            width: 466/@rem;
+            height: 198/@rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: rgba(255,255,255,.9);
+            text-align: center;
+            color: #333;
+            .title {
+              font-size: 22/@rem;
+              color: #7f7f7f;
+              margin: 35/@rem;
+            }
+            .must {
+              font-size: 32/@rem;
+              font-weight: 600;
+              margin-bottom:20/@rem;
+            }
+            .classic {
+              font-size: 24/@rem;
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+  }
+  .recommend {
+    overflow: hidden;
+    padding: 0;
+    margin: 35/@rem 0;
+    .wrap {
+      width: 205%;
+      padding: 0;
+      .recommend_article {
+        display: inline-block;
+        width: 164/@rem;
+        height: 210/@rem;
+        margin-left: 26/@rem;
+        .bg_img {
+          width: 164/@rem;
+          height: 164/@rem;
+          position: relative;
+          .img {
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .article {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 24/@rem;
+            text-align: right;
+            line-height: 36/@rem;
+            color: #fff;
+          }
+        }
+        .from {
+          font-size: 26/@rem;
+          text-align: center;
+          margin-top: 20/@rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .for_you {
+    padding: 0 30/@rem;
+    .fy_title {
+      height: 120/@rem;
+      line-height: 110/@rem;
+      text-align: center;
+      font-size: 36/@rem;
+    }
+    .recommend_content {
+      .recommend_list {
+        .yanxuan_rec {
+          .rec_img {
+            width: 100%;
+            height: 386/@rem;
+            position: relative;
+            .bg_img {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .title {
+              position: absolute;
+              top: 20/@rem;
+              left: 20/@rem;
+              width: 130/@rem;
+              height: 36/@rem;
+              background: #fff;
+              font-size: 24/@rem;
+              line-height: 36/@rem;
+              text-align: center;
+              border-radius: 18/@rem;
+            }
+          }
+          .detail {
+            padding: 20/@rem 20/@rem 60/@rem;
+            border: 1/@rem solid #f1f1f1;
+            border-top: none;
+            margin-bottom: 30/@rem;
+            .describe {
+              font-size: 32/@rem;
+              padding: 10/@rem 0 30/@rem;
+              .des {
+                color: #333333;
+              }
+              .price {
+                float: right;
+              }
+            }
+            .details {
+              font-size: 28/@rem;
+              color: #7f7f7f;
+            }
+          }
+        }
+        .good_goods {
+          border: 1/@rem solid #f1f1f1;
+          margin-bottom: 30/@rem;
+          .text {
+            display: inline-block;
+            width: 408/@rem;
+            height: 272/@rem;
+            box-sizing: border-box;
+            padding: 0 20/@rem;
+            .username {
+              display: block;
+              margin-top: 30/@rem;
+              .img {
+                img {
+                  width: 46/@rem;
+                  height: 46/@rem;
+                  border-radius: 50%;
+                  vertical-align: middle;
+                }
+              }
+              .name {
+                font-size: 24/@rem;
+                vertical-align: middle;
+              }
+            }
+            .describe {
+              font-size: 32/@rem;
+              margin: 30/@rem 0;
+            }
+            .detail {
+              font-size: 24/@rem;
+              color: #7f7f7f;
+            }
+            .describe,.detail {
+              display: block;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }
+          .bg_img {
+            display: inline-block;
+            float: right;
+            width: 280/@rem;
+            height: 272/@rem;
+            overflow: hidden;
+            position: relative;
+            .img {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .dinglei_recommend {
+              position: absolute;
+              top: 10/@rem;
+              left: 10/@rem;
+              font-size: 24/@rem;
+              width: 202/@rem;
+              height: 36/@rem;
+              line-height: 36/@rem;
+              text-align: center;
+              border-radius: 18/@rem;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .every_topic {
+    .topic_title {
+      height: 120/@rem;
+      line-height: 110/@rem;
+      text-align: center;
+      font-size: 36/@rem;
+    }
+    .today {
+      overflow: hidden;
+      padding-bottom: 30/@rem;
+      .wrap {
+        width: 330%;
+        padding: 0;
+        .content {
+          width: 580/@rem;
+          height: 411/@rem;
+          background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/tenFifteen-2a1d0ea11b.png");
+          background-size: 100% 100%;
+          margin-left: 30/@rem;
+          overflow: hidden;
+          display: inline-block;
+          .detail {
+            text-align: center;
+            color: #333;
+            .title {
+              font-size: 22/@rem;
+              color: #7f7f7f;
+              margin: 40/@rem;
+            }
+            .about {
+              font-size: 36/@rem;
+              font-weight: 700;
+              margin-bottom:25/@rem;
+            }
+            .talk {
+              font-size: 30/@rem;
+              color: #333;
+            }
+          }
+          .users {
+            display: flex;
+            margin: 80/@rem 0 0 100/@rem;
+            .icon {
+              font-size: 0;
+              img{
+                width: 48/@rem;
+                height: 48/@rem;
+                border-radius: 50%;
+              }
+            }
+            .point {
+              width: 48/@rem;
+              height: 48/@rem;
+              border-radius: 50%;
+              background: #7f7f7f;
+              display: flex;
+              div {
+                margin: auto;
+                width: 6/@rem;
+                height: 6/@rem;
+                border-radius: 50%;
+                background: #fff;
+              }
+            }
+            .people {
+              margin-left: 10/@rem;
+              font-size: 26/@rem;
+              color: #7f7f7f;
+              line-height: 48/@rem;
+            }
+          }
+        }
+        .see {
+          margin-left: 30/@rem;
+          display: inline-block;
+          width: 580/@rem;
+          height: 411/@rem;
+          line-height: 411/@rem;
+          text-align: center;
+          background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/tenFifteen-2a1d0ea11b.png");
+          background-size: 100% 100%;
+          overflow: hidden;
+          .see_more {
+            font-size: 32/@rem;
+            color: #7f7f7f;
+          }
+        }
+      }
+    }
+  }
+  .zhenpin {
+    padding: 0 30/@rem;
+    .fy_title {
+      height: 120/@rem;
+      line-height: 110/@rem;
+      text-align: center;
+      font-size: 36/@rem;
+    }
+    .recommend_content {
+      .recommend_list {
+        .yanxuan_rec {
+          .rec_img {
+            width: 100%;
+            height: 386/@rem;
+            position: relative;
+            .bg_img {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .title {
+              position: absolute;
+              top: 20/@rem;
+              left: 20/@rem;
+              width: 130/@rem;
+              height: 36/@rem;
+              background: #fff;
+              font-size: 24/@rem;
+              line-height: 36/@rem;
+              text-align: center;
+              border-radius: 18/@rem;
+            }
+          }
+          .detail {
+            padding: 20/@rem 20/@rem 60/@rem;
+            border: 1/@rem solid #f1f1f1;
+            border-top: none;
+            margin-bottom: 30/@rem;
+            .describe {
+              font-size: 32/@rem;
+              padding: 10/@rem 0 30/@rem;
+              .des {
+                color: #333333;
+              }
+              .price {
+                float: right;
+              }
+            }
+            .details {
+              font-size: 28/@rem;
+              color: #7f7f7f;
+            }
+          }
+        }
+        .good_goods {
+          border: 1/@rem solid #f1f1f1;
+          margin-bottom: 30/@rem;
+          .text {
+            display: inline-block;
+            width: 408/@rem;
+            height: 272/@rem;
+            box-sizing: border-box;
+            padding: 0 20/@rem;
+            .describe {
+              padding-top: 50/@rem;
+              font-size: 32/@rem;
+              margin: 30/@rem 0;
+            }
+            .detail {
+              font-size: 24/@rem;
+              color: #7f7f7f;
+            }
+            .describe,.detail {
+              display: block;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }
+          .bg_img {
+            display: inline-block;
+            float: right;
+            width: 280/@rem;
+            height: 272/@rem;
+            overflow: hidden;
+            position: relative;
+            .img {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .dinglei_recommend {
+              position: absolute;
+              top: 10/@rem;
+              left: 10/@rem;
+              font-size: 24/@rem;
+              width: 202/@rem;
+              height: 36/@rem;
+              line-height: 36/@rem;
+              text-align: center;
+              border-radius: 18/@rem;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .select_look {
+    .look_title {
+      height: 120/@rem;
+      line-height: 110/@rem;
+      text-align: center;
+      font-size: 36/@rem;
+    }
+    .video {
+      width: 100%;
+      .jpg {
+        width: 100%;
+        vertical-align: middle;
+      }
+      .yanxuans {
+        margin-left: 30/@rem;
+        background: #fff;
+        .xuanmei {
+          margin: 0 0 30/@rem;
+          .header_img {
+            img {
+              width: 46/@rem;
+              border-radius: 50%;
+              vertical-align: middle;
+            }
+          }
+          .name {
+            font-size: 24/@rem;
+            vertical-align: middle;
+          }
+        }
+        .text {
+          font-size: 28/@rem;
+          color: #7f7f7f;
+          line-height: 34/@rem;
+          padding-bottom: 50/@rem;
+        }
+      }
+    }
+  }
+  .more_wondful {
+    width: 100%;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    padding: 0 30/@rem;
+    z-index: -1;
+    .title {
+      height: 140/@rem;
+      line-height: 140/@rem;
+      text-align: center;
+      .line {
+        display: inline-block;
+        width: 30%;
+        height: 2/@rem;
+        background: #d9d9d9;
+        vertical-align: middle;
+      }
+      .text {
+        display: inline-block;
+        font-size: 34/@rem;
+        vertical-align: middle;
+      }
+    }
+    .goods {
+      .goods_list_one {
+        .one_goods {
+          height: 498/@rem;
+          box-sizing: border-box;
+          padding: 25/@rem;
+          background: #fff;
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+          .descibe {
+            span {
+              margin-top: 30/@rem;
+              display: block;
+              font-size: 28/@rem;
+            }
+          }
+        }
+        .split {
+          height: 30/@rem;
+        }
+      }
+      .goods_list_three {
+        .three_goods {
+          width: 100%;
+          height: 498/@rem;
+          box-sizing: border-box;
+          padding: 25/@rem;
+          background: #fff;
+          .img {
+            display: flex;
+            flex-direction: row;
+            .left_img {
+              width: 460/@rem;
+              height: 360/@rem;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .right_img {
+              display: flex;
+              flex-direction: column;
+              margin-left: 4/@rem;
+              .top_img {
+                margin-bottom: 4/@rem;
+              }
+              img {
+                width: 178/@rem;
+                height: 178/@rem;
+              }
+            }
+          }
+          .descibe {
+            span {
+              margin-top: 30/@rem;
+              display: block;
+              font-size: 28/@rem;
+            }
+          }
+        }
+        .split {
+          height: 30/@rem;
+        }
+      }
+    }
+  }
+}

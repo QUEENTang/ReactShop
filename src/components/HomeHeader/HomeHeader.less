@@ -1,0 +1,60 @@
+@import "../../asset/less/rem";
+.header {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  height: 147/@rem;
+  border-bottom: 1/@rem solid #dedede;
+  background: #fff;
+  .header_search {
+    height: 88/@rem;
+    line-height: 88/@rem;
+    text-align: center;
+    font-size: 36/@rem;
+    .header_title {
+      display: inline-block;
+      font-family: 华文楷体;
+      font-weight: 600;
+      margin-right: 15/@rem;
+    }
+    .search_goods {
+      display: inline-block;
+      width: 532/@rem;
+      height: 56/@rem;
+      line-height: 56/@rem;
+      background: #ededed;
+      border-radius: 8/@rem;
+      text-align: center;
+      .iconfont {
+        color: #666666;
+      }
+      .text {
+        color: #666666;
+        font-size: 30/@rem;
+        font-weight: 300;
+        display: inline-block;
+      }
+    }
+  }
+  .header_nav {
+    height: 60/@rem;
+    line-height: 56/@rem;
+    font-size: 28/@rem;
+    overflow: hidden;
+    .list {
+      width: 195%;
+      .list_text {
+        display: inline-block;
+        padding: 0 10/@rem;
+        margin: 0 25/@rem;
+        &.active {
+          border-bottom: 4/@rem solid #b4282d;
+          color: #b4282d;
+        }
+        &:first-child {
+          margin-left: 40/@rem;
+        }
+      }
+    }
+  }
+}

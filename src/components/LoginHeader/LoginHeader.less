@@ -1,0 +1,53 @@
+@import "../../asset/less/rem";
+.two_header {
+  .header {
+    position: relative;
+    width: 100%;
+    height: 88/@rem;
+    background: #f4f4f4;
+    z-index: 100;
+    .icon {
+      height: 88/@rem;
+      width: 90%;
+      margin: auto;
+      text-align: right;
+      a {
+        &.icon_home {
+          float: left;
+        }
+        &.icon_cart {
+          padding-left: 10/@rem;
+        }
+        .iconfont {
+          font-size: 46/@rem;
+          color: black;
+        }
+      }
+    }
+    .to_home {
+      width: 170/@rem;
+      height: 50/@rem;
+      position: absolute;
+      top: 10/@rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      a {
+        span {
+          display: block;
+          font-size: 40/@rem;
+          color: black;
+        }
+      }
+    }
+  }
+  .login_header {
+    text-align: center;
+    padding: 50/@rem;
+    img {
+      width: 192/@rem;
+      height: 64/@rem;
+    }
+  }
+}

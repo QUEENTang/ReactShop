@@ -1,0 +1,31 @@
+@import "../../asset/less/rem";
+.footer {
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98/@rem;
+  background: #fafafa;
+  .tab {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    &.on {
+      color: #b4282d;
+    }
+    .icon_img {
+      font-size: 40/@rem;
+      padding: 10/@rem;
+      .iconfont {
+        font-size: 40/@rem;
+      }
+    }
+    .text {
+      font-size: 24/@rem;
+    }
+  }
+}

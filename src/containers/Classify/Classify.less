@@ -1,0 +1,115 @@
+@import "../../asset/less/rem";
+.classify {
+  width: 100%;
+  padding-bottom: 98/@rem;
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 88/@rem;
+    box-sizing: border-box;
+    padding: 15/@rem 30/@rem;
+    background: #fff;
+    border-bottom: 1/@rem solid #d9d9d9;
+    z-index: 100;
+    .search {
+      height: 56/@rem;
+      line-height: 56/@rem;
+      background: #ededed;
+      border-radius: 10/@rem;
+      color: #666;
+      text-align: center;
+      font-size: 0;
+      .content {
+        display: inline-block;
+        font-size: 28/@rem;
+        vertical-align: middle;
+        .iconfont {
+          vertical-align: middle;
+          margin-right: 10/@rem;
+        }
+      }
+    }
+  }
+  .middle {
+    width: 100%;
+    height: 1150/@rem;
+    overflow: hidden;
+    padding-top: 88/@rem;
+    display: flex;
+    .left_classic {
+      width: 23%;
+      border-right: 1/@rem solid #d9d9d9;
+      .wrap {
+        overflow: hidden;
+        padding: 0;
+        .classic {
+          height: 150%;
+          .type {
+            text-align: center;
+            .title {
+              line-height: 49/@rem;
+              height: 49/@rem;
+              font-size: 28/@rem;
+              margin: 30/@rem 0 60/@rem;
+              &.active {
+                border-left: 6/@rem solid #b4282d;
+                color: #b4282d;
+                font-size: 36/@rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .right_goods {
+      width: 77%;
+      box-sizing: border-box;
+      margin: 30/@rem;
+      height: 1150/@rem;
+      .wrap {
+        overflow: hidden;
+        padding: 0;
+        .goods {
+          height: 200%;
+          .top_img {
+            img {
+              width: 528/@rem;
+              height: 192/@rem;
+              vertical-align: middle;
+            }
+          }
+          .goods_list {
+            .title {
+              width: 100%;
+              height: 108/@rem;
+              font-size: 26/@rem;
+              text-align: center;
+              line-height: 108/@rem;
+            }
+            .goods_show {
+              .only {
+                vertical-align: top;
+                height: 216/@rem;
+                width: 144/@rem;
+                margin: 0 15/@rem;
+                display: inline-block;
+                .img {
+                  width: 144/@rem;
+                  height: 144/@rem;
+                  img {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+                .detail {
+                  text-align: center;
+                  font-size: 24/@rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
